@@ -1,8 +1,20 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
 }
 
 a {
-  color: #00B7FF;
+
+}
+
+.video-list-container {
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(241, 241, 241);
+}
+.video-list-item {
+  padding: 10px;
+}
+.video-title {
+  padding-left: 10px;
 }

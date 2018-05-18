@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  .container.video-list-container
+    div.video-list-item
+      h3= videoId
+      video(controls='', src='http://p8vass6bb.bkt.clouddn.com/Video%20Of%20People%20Walking.mp4', poster='http://p8vass6bb.bkt.clouddn.com/Video%20Of%20People%20Walking.mp4?vframe/jpg/offset/7/w/480', width='100%')
+      div.video-title
+        a(href="/video/abc") 测试视频
+
