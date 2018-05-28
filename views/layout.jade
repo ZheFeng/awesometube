@@ -6,7 +6,15 @@ html
 
     link(rel='stylesheet', href='/stylesheets/bootstrap-4.1.0/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
-
+    
+    // Global site tag (gtag.js) - Google Analytics
+    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-119996230-1')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-119996230-1');
+      
     script(src="/javascripts/jquery-3.3.1.min.js")
     script(src="/javascripts/bootstrap-4.1.0/bootstrap.bundle.min.js")
   body
